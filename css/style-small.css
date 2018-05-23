@@ -1,0 +1,43 @@
+.my-name-class {
+	font-size: 25px;
+}
+
+.name-two-class {
+	font-size: 15px;
+}
+
+.logo-class {
+	width: 60px;
+	height: 48px;
+}
+
+.nav-wrapper {
+	margin-left: 0px;
+	flex-grow:1,3;
+}
+
+.list-wrapper {
+	font-size: 28px;
+}
+
+li a {
+	padding-left: 0;
+	margin-left: 0;
+	min-width: 48px;
+	min-height: 48px;
+	font-size: 14px;
+	padding-right: 15px;
+}
+
+.content {
+	font-size: 14px;
+}
+
+.featured-project {
+	text-align: center;
+	font-size: 14px;
+}
+
+a.aclass {
+	font-size: 13px;
+}

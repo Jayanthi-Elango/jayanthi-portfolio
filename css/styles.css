@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	body-background: lightgrey;
+	margin: 10px;
+	padding: 15px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	background-color:lightgrey;
+	align-items: center;
+	border-bottom: 5px solid orange;
+	font-family: 'Dancing Script';
+}
+
+.my-name-class {
+	font-size: 35px;
+	color: orange;
+	background-color: lightgrey;
+	text-align: right;
+	padding-right: 5px;
+	width: 100%;
+}
+
+.name-two-class {
+	font-size: 15px;
+	text-align: right;
+	display: block;
+	width: 100%;
+}
+
+.logo-class {
+	background-color: lightgrey;
+	display: inline-block;
+	width: 80px;
+	height: 100%;
+	padding-left: 10px;
+}
+
+.nav-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-grow:0,3;
+	flex-wrap: no-wrap;
+	font-size: 20px;
+  align-items: center;
+	justify-content: space-between;
+}
+
+
+.list-wrapper {
+	list-style-type: none;
+	max-width: 250px;
+	max-height: 140px;
+	width: 100%;
+	height:100%;
+	font-size: inherit;
+}
+
+li a {
+	display: block;
+	font-size: inherit;
+	color: #000;
+	min-width: 80px;
+	min-height: 70px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: orange;
+	color: white;
+}
+
+.image-container {
+	width: calc(100%-200px);
+	max-height: 100%;
+	text-align: center;
+	color: white;
+	overflow-x: hidden;
+}
+
+.list-items {
+	display: inline;
+	font-size: inherit;
+	color: #000;
+	min-width: 60px;
+	min-height: 60px;
+	text-decoration: none;
+}
+
+list-items a:hover {
+	background-color: orange;
+	color: white;
+}
+
+.featured-project {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	display: inline;
+	font-family: bolder;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	background-color: lightgrey;
+}
+
+a.aclass {
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.project-image-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: lightgrey;
+}
+
+.project-image-row .images {
+	flex: 33.3%;
+}
+
+.project-image-row .images .content {
+	padding: 0px 30px 0px 70px;
+}
+
+.images p {
+	line-height: 1.2em;
+	font-size: 0.9em;
+	margin-bottom: .5em;
+	background-color: lightgrey;
+}
+
+.images {
+	flex: 33%;
+	align-items: center;
+	background-repeat: no-repeat;
+}
+
+.hrclass {
+	border-bottom: 5px solid orange;
+	background-color: lightgrey;
+}
+.foot-container
+{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	background-color: lightgrey;
+	width:100%;
+	height:100%
+}
+.navi-wrapper{
+		list-style-type: none;
+}
+.listi-items
+{
+	display: inline-block;
+	margin-top: 5px;
+}

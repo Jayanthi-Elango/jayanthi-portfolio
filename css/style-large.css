@@ -1,0 +1,55 @@
+.my-name-class {
+	font-size: 60px;
+}
+
+.name-two-class {
+	font-size: 30px;
+}
+
+.logo-class {
+	width: 160px;
+	height: 148px;
+}
+
+.image-container {
+	max-width: 100%;
+	max-height: 100%;
+	flex-grow: 3;
+}
+
+.list-wrapper {
+	list-style-type: none;
+	flex-grow: 1;
+	max-width: 150px;
+	max-height: 200px;
+	font-size: 20px;
+}
+
+.nav-wrapper {
+	margin-right: 0px;
+	width:100%;
+	height:100%;
+
+}
+
+li a {
+	padding-left: 0;
+	margin-left: 0;
+	min-width: 54px;
+	min-height: 54px;
+	font-size: 18px;
+	padding-right: 0px;
+}
+
+.content {
+	font-size: 18px;
+}
+
+.featured-project {
+	font-size: 25px;
+	text-align: left;
+}
+
+a.aclass {
+	font-size: 15px;
+}
